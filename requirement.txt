@@ -1,0 +1,11 @@
+cassandra.cluster
+logging
+tensorflow
+PIL(pillow)
+shutil
+pymysql
+datetime
+redis
+paramiko
+flask
+json
