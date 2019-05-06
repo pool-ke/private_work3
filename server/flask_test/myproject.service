@@ -1,0 +1,13 @@
+[Unit]
+Description=uWSGI instance to serve myproject
+After=network.target
+
+[Service]
+User=huawei
+Group=huawei
+WorkingDirectory=/home/huawei/win_share/coding/imageserver20190228/server/flask_test
+Environment=FLASK_SETTINGS=/home/huawei/win_share/coding/imageserver20190228/server/flask_test
+ExecStart=/opt/conda/bin/uwsgi --ini /home/huawei/win_share/coding/imageserver20190228/server/flask_test/myproject.ini
+
+[Install]
+WantedBy=multi-user.target
