@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<options xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <url>http://10.101.170.235:58080/uploadfiles_test</url>
+  <folder>D:\Image</folder>
+  <delete>True</delete>
+</options>
